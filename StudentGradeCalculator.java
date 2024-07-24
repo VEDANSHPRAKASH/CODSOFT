@@ -24,31 +24,31 @@ public class StudentGradeCalculator
 
         double avgper = sum/sub;                              //average percentage of the student
 
-        if(avgper > 90) {
+        if(avgper > 90) {                                     //students with grade A+
             System.out.println("Total marks of the student is "+sum);
             System.out.println("Average percentage of the student is "+avgper);
             System.out.println("Grade of the student is A+");
-        } else if(avgper > 80 && avgper <= 90) {
+        } else if(avgper > 80 && avgper <= 90) {               //students with grade A
             System.out.println("Total marks of the student is "+sum);
             System.out.println("Average percentage of the student is "+avgper);
             System.out.println("Grade of the student is A");
-        } else if(avgper > 70 && avgper <= 80) {
+        } else if(avgper > 70 && avgper <= 80) {                //students with grade B+
             System.out.println("Total marks of the student is "+sum);
             System.out.println("Average percentage of the student is "+avgper);
             System.out.println("Grade of the student is B+");
-        } else if(avgper > 60 && avgper <= 70) {
+        } else if(avgper > 60 && avgper <= 70) {                 //students with grade B
             System.out.println("Total marks of the student is "+sum);
             System.out.println("Average percentage of the student is "+avgper);
             System.out.println("Grade of the student is B");
-        } else if(avgper > 50 && avgper <= 60) {
+        } else if(avgper > 50 && avgper <= 60) {                 //students with grade C
             System.out.println("Total marks of the student is "+sum);
             System.out.println("Average percentage of the student is "+avgper);
             System.out.println("Grade of the student is C");
-        } else if(avgper > 40 && avgper <= 50) {
+        } else if(avgper > 40 && avgper <= 50) {                 //students with grade D
             System.out.println("Total marks of the student is "+sum);
             System.out.println("Average percentage of the student is "+avgper);
             System.out.println("Grade of the student is D");
-        } else {
+        } else {                                                //students who failed the exam
             System.out.println("Total marks of the student is "+sum);
             System.out.println("Average percentage of the student is "+avgper);
             System.out.println("Grade of the student is Fail");
